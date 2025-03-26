@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:rgb(196, 246, 255);
+}
+
+footer{
+
+    padding: 100px;
+    margin-top: 60px;
+}
+footer p{
+    font-size: 15px;
+    background-color: #81d4fa;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    text-align: center;
+   
+}
+
+header{
+    background-color: #81d4fa;
+        padding: 20px;
+    
+    border-bottom: 5px solid #0288d1;
+}
+
+header h1{
+    font-size: 50px;
+    color: #0288d1; 
+    text-transform: uppercase;
+    background-color: #81d4fa;
+}
+
+header p{
+    font-size: 22px;
+    color: #555;
+    background-color: #81d4fa;
+}
+
+.controle{
+
+    display: flex;
+    padding-left:550px;
+    padding-top: 200px;
+}
+
+.genre {
+    display: flex;    
+    justify-content: space-around;
+    margin: 50px;
+    text-align: center;
+}
+
+
+.genre-img {
+    display: flex;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; 
+    transition: transform 0.3s;
+    
+}
+
+.genre-img:hover {
+    transform: scale(1.1);
+}
+.biography, .discography, .musicas, .fotos, .album {
+    background-color: rgb(169, 238, 250);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.biography2, .discography2, .musicas2, .fotos2, .album2 {
+    background-color: rgb(169, 238, 250);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.biography3, .discography3, .musicas3, .fotos3, .album3 {
+    background-color:rgb(169, 238, 250);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navegação{
+    margin-top: 30px;
+    font-size: 1.1em;
+    
+}
+
+.navegação a{
+    text-decoration: none;
+    color: #0288d1;
+    margin: 0 15px;
+
+}
+
+.navegação a:hover{
+    text-decoration: underline;
+
+}
